@@ -1,0 +1,101 @@
+.cart-container {
+    display: flex;
+    width: 100%;
+    height: 17vh;
+    border-bottom: 1px solid grey;
+}
+
+.cart-image {
+    width: 7vw;
+    height: 15vh;
+    margin-left: 12vw;
+}
+
+.cart-image img {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+
+}
+
+.cart-details {
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.cart-title {
+    width: 20vw;
+    height: auto;
+    margin-left: 60px;
+}
+
+.cart-price {
+    width: 18vw;
+    height: auto;
+    margin-left: 50px;
+}
+
+.cart-details button {
+    background-color: red;
+    border: none;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 8px;
+    color: white;
+    margin-left: 8vw;
+    cursor: pointer;
+}
+
+.cart-details button:hover {
+    background-color: rgb(211, 5, 5);
+}
+
+.cart-quantity-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8vw;
+    height: auto;
+    margin-left: 50px;
+}
+
+.cart-quantity {
+    width: 3vw;
+    height: 4vh;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.minus-button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+
+.minus-button:hover {
+    background-color: rgb(247, 27, 27);
+}
+
+.plus-button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+
+.plus-button:hover {
+    background-color: rgb(53, 247, 27);
+}

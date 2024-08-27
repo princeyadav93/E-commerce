@@ -1,0 +1,16 @@
+.heroImage {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroImage img {
+    width: 100%;
+    height: 80vh;
+}
+
+.heroImage h1 {
+    position: absolute;
+    top: 60vh;
+    left: 33vw;
+    color: white;
+}

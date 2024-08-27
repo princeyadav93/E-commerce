@@ -1,0 +1,13 @@
+.login {
+    width: 40vw;
+    height: 6vh;
+}
+
+.login-btn {
+    width: 100%;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: aqua;
+}

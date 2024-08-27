@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 75vh;
+}
+
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    background-color: beige;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px gray;
+}
+
+.error {
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.form-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 30vh;
+}
+
+.details input {
+    width: 39vw;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.sign-up {
+    width: auto;
+    height: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.signup {
+    width: 40vw;
+    height: 6vh;
+}
+
+.signup button {
+    width: 100%;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: aqua;
+}
+
+.sign-up button {
+    border: none;
+    background-color: none;
+    color: blue;
+}
+
+.login {
+    width: 40vw;
+    height: 6vh;
+}
+
+.login-btn {
+    width: 100%;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: aqua;
+}

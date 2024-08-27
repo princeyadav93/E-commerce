@@ -1,0 +1,14 @@
+.name-plate {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 8vh;
+    margin-left: 12vw;
+}
+
+.all-product-box {
+    width: 84vw;
+    position: relative;
+    left: 8vw;
+}

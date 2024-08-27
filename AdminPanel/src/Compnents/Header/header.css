@@ -1,0 +1,45 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 100px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.login-btn-div {
+    position: relative;
+    left: 20vw;
+    width: 8em;
+    height: 6em;
+    display: flex;
+    align-items: center;
+}
+
+.admin-login-btn {
+    width: 8em;
+    height: 3em;
+    border-radius: 8px;
+    border: none;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.admin-login-btn:hover {
+    background-color: rgb(177, 177, 177);
+}
