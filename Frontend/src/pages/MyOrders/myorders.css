@@ -1,0 +1,9 @@
+.name-plate {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    width: 80vw;
+    height: 8vh;
+    position: relative;
+    left: 17vw;
+}

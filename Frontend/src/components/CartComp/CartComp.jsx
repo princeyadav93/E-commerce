@@ -14,7 +14,7 @@ function CartComp(props) {
 
   const deleteCartItem = async () => {
     try {
-      const res = await axios.post("/api/v1/users/deletecartitem", { productId })
+      const res = await axios.delete("/api/v1/users/deletecartitem", { productId })
       console.log(res)
       window.location.reload();
     } catch (error) {
@@ -45,7 +45,6 @@ function CartComp(props) {
       console.log(error, "decrease quantity error")
     }
   }
-
 
   return (
     <>

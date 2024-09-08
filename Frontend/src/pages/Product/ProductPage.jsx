@@ -68,8 +68,8 @@ function ProductPage() {
                             <p>{product.description}</p>
                         </div>
                         <div className='product-price'>
-                            <p>${product.newPrice}</p>
-                            <p className='product-old-price'>${product.oldPrice}</p>
+                            <p className='product-new-price'>₹{product.newPrice}</p>
+                            <p className='product-old-price'>₹{product.oldPrice}</p>
                         </div>
                         <div className='quantity'>
                             <label htmlFor="quantity">Quantity:

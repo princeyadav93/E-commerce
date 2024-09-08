@@ -1,0 +1,31 @@
+.productDetails-box1 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1.6fr 1.2fr 1fr 1.4fr .6fr;
+    width: 90%;
+    height: 18vh;
+    position: relative;
+    top: 1vh;
+    left: 5%;
+    bottom: 20px;
+    /* background-color: blue; */
+}
+
+.image-div {
+    width: 10vw;
+    height: 18vh;
+}
+
+.image-div img {
+    width: 100%;
+    height: 90%;
+}
+
+.for-all {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    width: 16vw;
+}

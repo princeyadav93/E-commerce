@@ -9,6 +9,8 @@ import Signup from './pages/Signup/Signup.jsx'
 import ShopCatetory from './components/ShopCategory/ShopCatetory.jsx'
 import ProductPage from './pages/Product/ProductPage.jsx'
 import CartPage from './pages/CartPage/CartPage.jsx'
+import Paymentsucces from './pages/PaymentSuccess/Paymentsuccess.jsx'
+import Myorders from './pages/MyOrders/Myorders.jsx'
 import menBanner1 from './assets/Banners/menBanner1.jpg'
 import womenBanner2 from './assets/Banners/womenBanner2.jpg'
 import kidsBanner1 from './assets/Banners/kidsBanner1.jpg'
@@ -28,6 +30,8 @@ const router = createBrowserRouter(
         <Route path=":productId" element={<ProductPage />} />
       </Route>
       <Route path="Cartpage" element={<CartPage />} />
+      <Route path="paymentsuccess" element={<Paymentsucces />} />
+      <Route path="myorders" element={<Myorders />} />
     </Route>
   )
 )

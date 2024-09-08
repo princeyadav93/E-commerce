@@ -63,7 +63,13 @@
     justify-content: space-evenly;
     position: relative;
     top: 21vh;
-    left: .5vw;
+    left: 1vw;
+    font-size: 1.2em;
+}
+
+.product-new-price {
+    color: rgb(228, 51, 51);
+    font-weight: 700;
 }
 
 .product-old-price {

@@ -13,7 +13,7 @@ function Logoutbtn() {
         localStorage.removeItem("userInfo")
         navigate("/")
     }
-    console.log(userInfo)
+
     const myFunction = () => {
         setisOpen(!isOpen)
     }
@@ -22,12 +22,12 @@ function Logoutbtn() {
     }
     return (
         <div className="dropdown">
-            <button onClick={myFunction} className="dropbtn"><i class="fa-regular fa-user"></i></button>
+            <button onClick={myFunction} className="dropbtn"><i className="fa-regular fa-user"></i></button>
             <div className='dropdown-content' style={{ display: isOpen ? 'block' : 'none' }}>
                 <li>{(userInfo.data.user.name)}</li>
                 <li>{userInfo.data.user.email}</li>
                 <li id='logoutbtn'><button className='logoutbtn' onClick={() => userLogOut()}>Logout</button></li>
-                <li id='logoutbtn'><button className='closebtn' onClick={closeDropDwn}><i class="fa-regular fa-circle-xmark"></i></button></li>
+                <li id='logoutbtn'><button className='closebtn' onClick={closeDropDwn}><i className="fa-regular fa-circle-xmark"></i></button></li>
             </div>
         </div>
     )

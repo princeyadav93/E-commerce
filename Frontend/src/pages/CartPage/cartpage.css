@@ -35,3 +35,35 @@
     border-bottom: 1px dotted grey;
     padding-bottom: 15px;
 }
+
+.payment-container {
+    display: flex;
+    width: 100%;
+    height: 47vh;
+}
+
+.checkOutHandler-box {
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10vw;
+    top: 8vh;
+}
+
+.checkOutHandler-btn {
+    width: 40%;
+    height: 8vh;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff9900;
+    color: white;
+    font-size: 1.2em;
+}
+
+.checkOutHandler-btn:hover {
+    background-color: #df8703;
+}

@@ -43,7 +43,11 @@ function Header() {
                         <p>{cartCount}</p>
                     </div>
                 </div>
-                {/* <button onClick={() => userLogOut()} className='logIn-btn'>Logout</button>  */}
+                <div className="my-orders">
+                    <Link to='/myorders'><i className="fa-solid fa-bag-shopping"></i>
+                        <p>My Orders</p>
+                    </Link>
+                </div>
             </nav>
         </header>
     )

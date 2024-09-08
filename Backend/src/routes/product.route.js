@@ -7,7 +7,7 @@ import { upload } from "../middlewares/multer.middleware.js"
 const router = Router();
 
 router.route("/addproduct").post(verifyJWT, upload.single("itemImage"), addProduct);
-router.route("/deleteproduct").post(verifyJWT, removeProduct);
+router.route("/deleteproduct").delete(verifyJWT, removeProduct);
 router.route("/allproductdetails").get(verifyJWT, allProductDetails);
 router.route("/userallproductdetails").get(allProductDetails);
 

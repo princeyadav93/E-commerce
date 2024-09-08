@@ -9,11 +9,12 @@ export const ProductContextProvider = ({ children }) => {
     const [oldPriceTotal, setoldPriceTotal] = useState(0);
     const [newPriceTotal, setnewPriceTotal] = useState(0);
     const [allCartProducts, setallCartProducts] = useState([])
+    const [allOrderedProduct, setallOrderedProduct] = useState([])
 
     return (
         <productContext.Provider value={{
             allProductsContext, setallProductsContext, cartCount, setcartCount,
-            oldPriceTotal, setoldPriceTotal, newPriceTotal, setnewPriceTotal, allCartProducts, setallCartProducts
+            oldPriceTotal, setoldPriceTotal, newPriceTotal, setnewPriceTotal, allCartProducts, setallCartProducts, allOrderedProduct, setallOrderedProduct
         }}>
             {children}
         </productContext.Provider>

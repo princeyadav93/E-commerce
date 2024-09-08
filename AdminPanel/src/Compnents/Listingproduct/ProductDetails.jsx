@@ -5,7 +5,7 @@ function ProductDetails(props) {
 
     const deleteProduct = async (id) => {
         try {
-            const res = await axios.post("/api/v1/admin/product/deleteproduct", { id })
+            const res = await axios.delete("/api/v1/admin/product/deleteproduct", { id })
             console.log(res.data)
             console.log("Product removed")
             location.reload();

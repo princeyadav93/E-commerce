@@ -94,7 +94,6 @@ const deleteCartItem = asyncHandler(async (req, res) => {
             user: userId,
             "items.product": productId
         })
-    console.log(cart)
 
     if (!cart) {
         throw new ApiError(404, "cart not found")

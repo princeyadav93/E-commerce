@@ -98,3 +98,16 @@ nav {
     font-size: 1em;
     color: orange;
 }
+
+.fa-bag-shopping {
+    font-size: 1.8em;
+}
+
+.my-orders a {
+    text-decoration: none;
+}
+
+.my-orders p {
+    margin-left: -1.2em;
+    font-size: .9em;
+}
